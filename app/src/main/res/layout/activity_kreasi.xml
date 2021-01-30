@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/PanelKarya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panel Berkarya"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="63dp"
+        android:text="Anda Punya Cerita?"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/kreasi"
+        android:layout_width="397dp"
+        android:layout_height="218dp"
+        android:layout_x="0dp"
+        android:layout_y="131dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="258dp"
+        android:layout_y="361dp"
+        android:text="Word It Out!" />
+
+</AbsoluteLayout>
